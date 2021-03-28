@@ -3,4 +3,4 @@ from .models import Post
 
 
 def all_blog_posts(request):
-    return(request, 'blog_index.html')
+    return(request, 'blog/all_posts.html')
